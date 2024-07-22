@@ -1,0 +1,45 @@
+body {
+    background: black
+}
+
+.title {
+    color:azure;
+    background-color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitle {
+    color:white;
+    background-color: rgb(83, 205, 164);
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    height: 360px;
+    width: 540px;
+}
+
+ul {
+    background-color: green;
+}
+
+div ul, div {
+    background-color: brown;
+}
+
+.desc {
+    background-color: fuchsia;
+}
+
+#in_li {
+    background-color: white;
+    list-style-type: none;
+    font-size: large;
+    padding: 4px;
+    text-align: center;
+}
+
