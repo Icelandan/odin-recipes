@@ -23,23 +23,44 @@ img {
     width: 540px;
 }
 
-ul {
-    background-color: green;
+div {
+    display: block;
+    text-align: center;
 }
 
-div ul, div {
+ul {
+    background-color: green;
+    font-size: 18px;
+    text-align: center;
+}
+
+ol {
     background-color: brown;
 }
 
 .desc {
     background-color: fuchsia;
+    text-align: center;
+}
+
+ul, ol, .desc {
+    border: 3px solid rgb(230, 229, 138);
+    margin: 10px;
+    padding: 25px;
+}
+
+ul li {
+    display: inline-block;
+    border: 2px solid white;
+    background-color: white;
+    padding: 5px;
+    margin: 8px 5px;
 }
 
 #in_li {
     background-color: white;
     list-style-type: none;
-    font-size: large;
+    font-size: 25px;
     padding: 4px;
     text-align: center;
 }
-
